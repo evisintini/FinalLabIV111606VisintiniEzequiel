@@ -16,7 +16,7 @@
     <body>
         <h1>Listado de ordenes</h1>
         <table>
-            <c:forEach var="orden" items="${lista}">
+            <c:forEach var="ordenes" items="${lista}">
                 <tr>
                     <td>${ordenes.id}</td>
                     <td>${ordenes.producto.descripcion}</td>
